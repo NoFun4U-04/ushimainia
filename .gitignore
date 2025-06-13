@@ -1,0 +1,64 @@
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+*.dll
+*.exe
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.deps.json
+
+# Rider
+.idea/
+
+# Publish output
+publish/
+
+# Configuration files
+*.config
+*.dbmdl
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.swp
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test Results
+TestResults/
+
+# Others
+*.sqlite
+*.mdf
+*.ldf
+*.pdb
