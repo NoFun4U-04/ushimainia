@@ -53,11 +53,17 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuQuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuQuanLy.Designer.cs">
+      <DependentUpon>menuQuanLy.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDanhmuc.cs">
       <SubType>Form</SubType>
@@ -68,8 +74,11 @@
     <Compile Include="Function.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuQuanLy.resx">
+      <DependentUpon>menuQuanLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDanhmuc.resx">
       <DependentUpon>frmDanhmuc.cs</DependentUpon>
@@ -100,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\anhNen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
